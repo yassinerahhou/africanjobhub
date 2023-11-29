@@ -43,15 +43,55 @@
     </div>
 
     <!-- Part 3 -->
-    <div class="footer-part3">
+    <!-- <div class="footer-part3">
       <p id="part3">JOBPOST</p>
       <nav>
         <a id="part3a" href="#">Home</a>
-        <a id="part3a" href="#">About</a>
+        <a id="part3a" href="about.html">About</a>
         <a id="part3a" href="#">Features</a>
         <a id="part3a" href="#">Pricing</a>
         <a id="part3a" href="#">Contact</a>
-      </nav>
+      </nav> -->
+      <div class="footer-part3">
+        <p id="part3">JOBPOST</p>
+        <nav>
+          <a id="homeLink" href="#">Home</a>
+          <a id="aboutLink" href="about.html">About</a>
+          <a id="featuresLink" href="#">Features</a>
+          <a id="pricingLink" href="#">Pricing</a>
+          <a id="contactLink" href="#">Contact</a>
+        </nav>
+        <script>
+          // Get the button elements by their IDs
+          var homeLink = document.getElementById('homeLink');
+          var aboutLink = document.getElementById('aboutLink');
+          var featuresLink = document.getElementById('featuresLink');
+          var pricingLink = document.getElementById('pricingLink');
+          var contactLink = document.getElementById('contactLink');
+      
+          // Add click event listeners to the buttons
+          homeLink.addEventListener('click', function () {
+            window.location.href = 'home.html';
+          });
+      
+          aboutLink.addEventListener('click', function () {
+            window.location.href = 'about.html';
+          });
+      
+          featuresLink.addEventListener('click', function () {
+            window.location.href = 'features.html';
+          });
+      
+          pricingLink.addEventListener('click', function () {
+            window.location.href = 'pricing.html';
+          });
+      
+          contactLink.addEventListener('click', function () {
+            window.location.href = 'contact.html';
+          });
+        </script>
+      </div>
+      
 
       <div class="icon3">
         <a href="#"><i class="fa-brands fa-facebook"></i></a>

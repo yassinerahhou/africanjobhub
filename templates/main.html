@@ -123,15 +123,15 @@
 
         <!-- Part 3 -->
         <div class="footer-part3">
-            <p id="part3">JOBPOST</p>
-            <nav id="omaima_nav">
-                <a id="part3a" href="#">Home</a>
-                <a id="part3a" href="#">About</a>
-                <a id="part3a" href="#">Features</a>
-                <a id="part3a" href="#">Pricing</a>
-                <a id="part3a" href="{{ url_for('contact')}}"> Contact</a>
-            </nav>
-
+                <p id="part3">JOBPOST</p>
+                <nav>
+                  <a id="part3a" href="{{ url_for('home')}}">Home</a>
+                  <a id="part3a" href="{{ url_for('about')}}">About</a>
+                  <a id="part3a" href="#">Features</a>
+                  <a id="part3a" href="#">Pricing</a>
+                  <a id="part3a" href="{{ url_for('contact')}}">Contact</a>
+                </nav>
+               
             <div class="icon3">
 
                 <a id="a_omaima" href="#"><i class="fa-brands fa-facebook"></i></a>
