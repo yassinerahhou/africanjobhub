@@ -20,7 +20,7 @@ def public_sctr():
 
 @app.route('/private')
 def private_sctr():
-    return render_template('sctr_prvt.html', test='AAA')
+    return render_template('sctr_prvt.html', test='PRIVATE PAGE')
 
 
 @app.route('/companies')

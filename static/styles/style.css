@@ -242,3 +242,72 @@ header {
   height: 30px;
   border: 1px solid black;
 }
+
+/* FIND THE PERFECT CONDIDATE */
+
+.condidate_perfect {
+  /* border: red solid 4px; */
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+.FIND_CONDITATE {
+  /* border: greenyellow solid 4px; */
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: hidden;
+  position: relative;
+  /* padding: 0 0 5% 0; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+.four_condidate {
+  /* border: blue solid 4px; */
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: space-around;
+}
+.ef_4 {
+  /* border: rgb(255, 157, 0) 4px solid; */
+  height: 40%;
+  width: 45%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  margin: 10px 0 0% 0;
+}
+#h1_ef4,
+#p1_ef4 {
+  padding: 2% 0 0 5%;
+}
+#p1_ef4 {
+  padding: 5% 0 0 7%;
+  font: 1em sans-serif;
+  max-width: 80%;
+  display: inherit;
+  /* text-align: center; */
+  /* align-items: center;
+  justify-items: center; */
+}
+#find_x {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#last_x {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+#feat_h5 {
+  color: blue;
+  font-family: monospace;
+  font-size: large;
+}
