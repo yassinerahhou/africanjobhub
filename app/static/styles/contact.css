@@ -1,23 +1,40 @@
+<<<<<<< HEAD:app/static/styles/contact.css
 .contact_body {
+=======
+body {
+>>>>>>> e28024206307b09ef94d0caf24706e2e32aed313:static/styles/contact.css
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+<<<<<<< HEAD:app/static/styles/contact.css
    
 }
 
 .container_contact {
     max-width: 80%;
+=======
+}
+
+.container {
+    max-width: 600px;
+>>>>>>> e28024206307b09ef94d0caf24706e2e32aed313:static/styles/contact.css
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD:app/static/styles/contact.css
     /* border: red 41px solid; */
 
 }
 
 #h1_cntct {
+=======
+}
+
+h1 {
+>>>>>>> e28024206307b09ef94d0caf24706e2e32aed313:static/styles/contact.css
     text-align: center;
     color: #333;
     font-size: medium;
@@ -46,7 +63,11 @@ textarea {
 
 
 button {
+<<<<<<< HEAD:app/static/styles/contact.css
     background-color: rgb(240, 244, 242);
+=======
+    background-color: rgb(25, 168, 113);
+>>>>>>> e28024206307b09ef94d0caf24706e2e32aed313:static/styles/contact.css
     color: #0d0c0c;
     border: none;
     border-radius: 9px;
@@ -54,16 +75,29 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD:app/static/styles/contact.css
     height: 35px;
     width:20%;
     align-self: center;
     font-size: medium;
     border: #0d0c0c 1px solid;
+=======
+    height: 27px;
+    width: 19%;
+    align-self: center;
+    font-size: medium;
+>>>>>>> e28024206307b09ef94d0caf24706e2e32aed313:static/styles/contact.css
 
 }
 
 button:hover {
+<<<<<<< HEAD:app/static/styles/contact.css
     background-color: #1FACCB
     ;
 }
     
+=======
+    background-color: rgb(136, 231, 141);
+}
+    
+>>>>>>> e28024206307b09ef94d0caf24706e2e32aed313:static/styles/contact.css
